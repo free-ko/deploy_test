@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/project-react-kokoflix/static/js/main.abe899a9.chunk.js",
+    "main.js.map": "/project-react-kokoflix/static/js/main.abe899a9.chunk.js.map",
+    "runtime-main.js": "/project-react-kokoflix/static/js/runtime-main.73a7f0ab.js",
+    "runtime-main.js.map": "/project-react-kokoflix/static/js/runtime-main.73a7f0ab.js.map",
+    "static/js/2.bb33e001.chunk.js": "/project-react-kokoflix/static/js/2.bb33e001.chunk.js",
+    "static/js/2.bb33e001.chunk.js.map": "/project-react-kokoflix/static/js/2.bb33e001.chunk.js.map",
+    "index.html": "/project-react-kokoflix/index.html",
+    "precache-manifest.5ed48d2d406fedbe3364bb1576f52dc6.js": "/project-react-kokoflix/precache-manifest.5ed48d2d406fedbe3364bb1576f52dc6.js",
+    "service-worker.js": "/project-react-kokoflix/service-worker.js",
+    "static/js/2.bb33e001.chunk.js.LICENSE.txt": "/project-react-kokoflix/static/js/2.bb33e001.chunk.js.LICENSE.txt",
+    "static/media/noPosterSmall.png": "/project-react-kokoflix/static/media/noPosterSmall.667cb8c4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.73a7f0ab.js",
+    "static/js/2.bb33e001.chunk.js",
+    "static/js/main.abe899a9.chunk.js"
+  ]
+}
