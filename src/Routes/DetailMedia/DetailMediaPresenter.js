@@ -9,6 +9,21 @@ const Container = styled.div`
   width: 100%;
   position: relative;
   padding: 50px;
+
+  /* iPhone 5/SE */
+  @media (max-width:320px) {
+    padding: 10px;
+  }
+
+  /* iPhone 6/7/8 */
+  @media (min-width: 321px) and (max-width:375px) {
+    padding: 15px;
+  } 
+
+  /* iPhone 6/7/8/Plus */
+  @media (min-width: 376px) and (max-width:414px) {
+    padding: 20px;
+  }
 `;
 
 const Backdrop = styled.div`
@@ -40,23 +55,96 @@ const Cover = styled.div`
   background-size: cover;
   height: 80%;
   border-radius: 8px;
+
+  /* iPhone 5/SE */
+  @media (max-width:320px) {
+    width: 72%;
+    margin-top: 3rem;
+  }
+
+  /* iPhone 6/7/8 */
+  @media (min-width: 321px) and (max-width:375px) {
+    width: 83%;
+    margin-top: 3rem;
+  }
+
+  /* iPhone 6/7/8/Plus */
+  @media (min-width: 376px) and (max-width:414px) {
+    width: 83%;
+    margin-top: 3rem;
+  }
 `;
 
 const Data = styled.div`
   width: 70%;
   margin-left: 3vw;
   font-size: 18px;
+  
+  /* iPhone 5/SE */
+  @media (max-width:320px) {
+    margin-top: 3rem;
+  }
+
+  /* iPhone 6/7/8 */
+  @media (min-width: 321px) and (max-width:375px) {
+    margin-top: 3rem;
+  }
+
+  /* iPhone 6/7/8/Plus */
+  @media (min-width: 376px) and (max-width:414px) {
+    margin-top: 3rem;
+  }
 `;
 
 const Title = styled.h3`
   font-size: 38px;
+
+  /* iPhone 5/SE */
+  @media (max-width:320px) {
+    font-size: 1.4rem;
+  }
+
+  /* iPhone 6/7/8 */
+    @media (min-width: 321px) and (max-width:375px) {
+      font-size: 1.55rem;
+  }
+
+  /* iPhone 6/7/8/Plus */
+  @media (min-width: 376px) and (max-width:414px) {
+    font-size: 1.7rem;
+  }
+
+  /* iPhone X */
+  @media (height:812px) {
+    font-size: 2rem ;
+  }
 `;
 
 const ItemContainer = styled.div`
   margin: 20px 0;
+
+  /* iPhone 6/7/8 */
+  @media (min-width: 321px) and (max-width:375px) {
+    margin: 14px 0;
+  }
 `;
 
-const Item = styled.span``;
+const Item = styled.span`
+  /* iPhone 5/SE */
+  @media (max-width:320px) {
+    font-size: 11px;
+  }
+
+  /* iPhone 6/7/8 */
+  @media (min-width: 321px) and (max-width:375px) {
+    font-size: 14px;
+  }
+
+  /* iPhone 6/7/8/Plus */
+  @media (min-width: 376px) and (max-width:414px) {
+    font-size: 16px;
+  }
+`;
 
 const Stars = styled.span`
   color: #ffe228;
@@ -66,6 +154,21 @@ const Stars = styled.span`
 
 const Divider = styled.span`
   margin: 0 10px;
+
+  /* iPhone 5/SE */
+  @media (max-width:320px) {
+    margin: 0 5px;
+  }
+
+  /* iPhone 6/7/8 */
+  @media (min-width: 321px) and (max-width:375px) {
+    margin: 0 5px;
+  }
+
+  /* iPhone 6/7/8/Plus */
+  @media (min-width: 376px) and (max-width:414px) {
+    margin: 0 5px;
+  }
 `;
 
 const Overview = styled.p`
@@ -73,6 +176,27 @@ const Overview = styled.p`
   opacity: 0.7;
   line-height: 1.5;
   width: 50%;
+
+  /* iPhone 5/SE */
+  @media (max-width:320px) {
+    width: 100%;
+  }
+
+  /* iPhone 6/7/8 */
+  @media (min-width: 321px) and (max-width:375px) {
+    width: 100%;
+  }
+
+  /* iPhone 6/7/8/Plus */
+  @media (min-width: 376px) and (max-width:414px) {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  /* iPhone X */
+  @media (height:812px) {
+    font-size: 14px;
+  }
 `;
 
 const DetailMediaPresenter = ({ result, loading, error }) =>

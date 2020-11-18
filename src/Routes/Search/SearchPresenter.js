@@ -10,6 +10,16 @@ import PosterBooks from "../../Components/PosterBooks";
 
 const Container = styled.div`
   padding: 20px;
+
+  /* iPhone 6/7/8 */
+  @media (min-width: 321px) and (max-width:375px) {
+    padding-left: 2.3rem;
+  }
+
+  /* iPhone 6/7/8/Plus */
+  @media (min-width: 376px) and (max-width:414px) {
+    padding-left: 2.1rem;
+  }
 `;
 
 const Form = styled.form`

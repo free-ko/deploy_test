@@ -16,7 +16,22 @@ const globalStyles = createGlobalStyle`
         background-color: rgba(20, 20, 20, 1);
         color: white;
         padding-top: 80px;
-    }
+
+        /* iPhone 5/SE */
+        @media (max-width:320px) {
+            padding-top: 50px;
+        }
+
+        /* iPhone 6/7/8 */
+        @media (min-width: 321px) and (max-width:375px) {
+            padding-top: 50px;
+        } 
+
+          /* iPhone 6/7/8/Plus */
+        @media (min-width: 376px) and (max-width:414px) {
+            padding-top: 50px;
+        }
+    
 `;
 
 export default globalStyles;
